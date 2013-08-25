@@ -1,5 +1,5 @@
 {
-    "name": "hoathis/xyl",
+    "name": "hoathis/xyl-bundle",
     "description": "The Hoa\\Xyl Symfony 2 bundle.",
     "type"       : "symfony-bundle",
     "keywords"   : ["library", "bundle", "symfony", "xyl"],
