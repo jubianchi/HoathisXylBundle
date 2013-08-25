@@ -17,4 +17,4 @@ before_script:
     - "if [ ! -z \"$GITHUB_TOKEN\" ]; then php composer.phar install --dev; else php composer.phar install --dev --prefer-source; fi;"
 
 script:
-    - vendor/bin/atoum -d tests -bf vendor/autoload.php
+    - vendor/bin/atoum -d Tests -bf vendor/autoload.php
