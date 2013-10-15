@@ -19,55 +19,8 @@
             "homepage": "http://hoa-project.net/"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/HoaComposer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Compiler.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Core.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/File.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Iterator.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Router.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Stream.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Stringbuffer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/View.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Xml.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/jubianchi/Xyl.git"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
-        "hoa/composer": "dev-master",
         "hoa/file": "dev-master",
         "hoa/xyl": "dev-master",
         "symfony/http-kernel": "~2.2"

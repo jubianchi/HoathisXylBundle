@@ -34,6 +34,7 @@ class Engine extends atoum
             ->and($xyl = new Xyl(new Read($inStream), new ReadWrite($outStream), new Html()))
             ->if($engine = new TestedClass($parser, $loader))
             ->and($template = uniqid())
+            ->and($sp = chr(32))
             ->then
                 ->string($engine->render($template, array(), $xyl))->isEqualTo(<<<HTML
 <!DOCTYPE html>
@@ -45,7 +46,7 @@ class Engine extends atoum
 <html>
 <![endif]-->
 <head>
-
+$sp$sp
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="content-type" content="text/javascript; charset=utf-8" />
   <meta http-equiv="content-type" content="text/css; charset=utf-8" />
